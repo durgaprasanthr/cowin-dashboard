@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #161625;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.content-container {
+  width: 80%;
+  max-width: 1000px;
+  padding-bottom: 30px;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+}
+.nav-logo {
+  width: 60px;
+  margin-right: 20px;
+}
+.nav-heading {
+  font-family: Roboto;
+  font-size: 30px;
+  color: #2cc6c6;
+}
+.cowin-heading {
+  font-family: Roboto;
+  font-size: 30px;
+  color: #cbd5e1;
+  margin-top: 0px;
+  font-weight: normal;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.failure-img {
+  width: 300px;
+}
+
+.failure-msg {
+  font-family: Bree Serif;
+  font-size: 25px;
+  color: #ffffff;
+}
